@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is an iOS application, created in response to a question on Stack Overflow, [How to check my current location against locations in a remote file - iOS app](http://stackoverflow.com/questions/13667062). This is, by no means, a complete implementation, but rather is a barebones demonstration of some of the basic interfaces. Furthermore, this is a demonstration of the iOS client-side code, but does not address the server-side code to provide a JSON web-service to keep track of the collection of locations illustrated in the JSON response, described later in this document
+This is an iOS application, created in response to a question on Stack Overflow, [How to check my current location against locations in a remote file - iOS app](http://stackoverflow.com/questions/13667062). This is, by no means, a complete implementation (there is, in fact, no user interface, but rather it just performs `NSLog` statements), but rather is a barebones demonstration of some of the basic interfaces. Furthermore, this is a demonstration of the iOS client-side code, but does not address the server-side code to provide a JSON web-service to keep track of the collection of locations illustrated in the JSON response, described later in this document.
 
 Anyway, this iOS app demonstrates:
 
