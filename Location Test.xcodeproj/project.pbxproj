@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83E890B6166F287000941E99 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83E890B4166F287000941E99 /* LICENSE */; };
+		83E890B7166F287000941E99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83E890B5166F287000941E99 /* README.md */; };
 		C4D73414166E8F2B0089A564 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D73413166E8F2B0089A564 /* UIKit.framework */; };
 		C4D73416166E8F2B0089A564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D73415166E8F2B0089A564 /* Foundation.framework */; };
 		C4D73418166E8F2B0089A564 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D73417166E8F2B0089A564 /* CoreGraphics.framework */; };
@@ -18,9 +20,12 @@
 		C4D7342A166E8F2B0089A564 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D73429166E8F2B0089A564 /* Default-568h@2x.png */; };
 		C4D7342D166E8F2B0089A564 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D7342B166E8F2B0089A564 /* MainStoryboard.storyboard */; };
 		C4D73430166E8F2B0089A564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D7342F166E8F2B0089A564 /* ViewController.m */; };
+		C4D73437166E8F5C0089A564 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D73436166E8F5C0089A564 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83E890B4166F287000941E99 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		83E890B5166F287000941E99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C4D7340F166E8F2B0089A564 /* Location Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D73413166E8F2B0089A564 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4D73415166E8F2B0089A564 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +42,7 @@
 		C4D7342C166E8F2B0089A564 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C4D7342E166E8F2B0089A564 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4D7342F166E8F2B0089A564 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4D73436166E8F5C0089A564 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D73437166E8F5C0089A564 /* CoreLocation.framework in Frameworks */,
 				C4D73414166E8F2B0089A564 /* UIKit.framework in Frameworks */,
 				C4D73416166E8F2B0089A564 /* Foundation.framework in Frameworks */,
 				C4D73418166E8F2B0089A564 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +63,8 @@
 		C4D73404166E8F2B0089A564 = {
 			isa = PBXGroup;
 			children = (
+				83E890B4166F287000941E99 /* LICENSE */,
+				83E890B5166F287000941E99 /* README.md */,
 				C4D73419166E8F2B0089A564 /* Location Test */,
 				C4D73412166E8F2B0089A564 /* Frameworks */,
 				C4D73410166E8F2B0089A564 /* Products */,
@@ -73,6 +82,7 @@
 		C4D73412166E8F2B0089A564 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4D73436166E8F5C0089A564 /* CoreLocation.framework */,
 				C4D73413166E8F2B0089A564 /* UIKit.framework */,
 				C4D73415166E8F2B0089A564 /* Foundation.framework */,
 				C4D73417166E8F2B0089A564 /* CoreGraphics.framework */,
@@ -163,6 +173,8 @@
 				C4D73428166E8F2B0089A564 /* Default@2x.png in Resources */,
 				C4D7342A166E8F2B0089A564 /* Default-568h@2x.png in Resources */,
 				C4D7342D166E8F2B0089A564 /* MainStoryboard.storyboard in Resources */,
+				83E890B6166F287000941E99 /* LICENSE in Resources */,
+				83E890B7166F287000941E99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +235,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -244,7 +256,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -292,6 +304,7 @@
 				C4D73435166E8F2B0089A564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
