@@ -29,7 +29,7 @@ The format of the JSON file on the server is presumed to be in the following for
 
 Please note that you need to put this JSON file on your server (or write a web service that delivers similarly formatted JSON output) and update the `kLocationsUrlString` constant to point to that URL. (If you compile this app, it will generate a warning, bringing the appropriate line of code to your attention.)
 
-This was developed using Xcode 4.5.2 for devices running iOS 6.
+This was developed using Xcode 4.5.2 for devices running iOS 5 or later.
 
 --
 
